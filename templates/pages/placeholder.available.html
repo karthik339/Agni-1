@@ -86,7 +86,6 @@ jQuery('#datetimepicker').datetimepicker();
 				$('#device_details_area').val(data[0].device_details);
 				image_string = "/static/img/topology_".concat(selectedValue).concat(".jpg");
 				$('#image_section').attr('src',image_string);
-				alert(image_string);
 				if (data[0].demo_status == 1){
 					$('#demo_reserve').attr('disabled','disabled');
 				}else{

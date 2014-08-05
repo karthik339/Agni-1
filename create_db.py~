@@ -1,0 +1,4 @@
+import simplejson 
+json_data = open('data.json')
+database_details = simplejson.load(json_data)
+
